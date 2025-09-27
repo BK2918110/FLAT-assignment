@@ -1,0 +1,90 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 2 [label = "0:0", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 3 [label = "72:72", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+	2 -> 1 [label = "34:34", fontsize = 14];
+3 [label = "3", shape = circle, style = solid, fontsize = 14]
+	3 -> 4 [label = "101:101", fontsize = 14];
+4 [label = "4", shape = circle, style = solid, fontsize = 14]
+	4 -> 5 [label = "121:121", fontsize = 14];
+5 [label = "5", shape = circle, style = solid, fontsize = 14]
+	5 -> 7 [label = "0:0", fontsize = 14];
+6 [label = "6", shape = circle, style = solid, fontsize = 14]
+	6 -> 9 [label = "0:0", fontsize = 14];
+7 [label = "7", shape = circle, style = solid, fontsize = 14]
+	7 -> 6 [label = "33:33", fontsize = 14];
+8 [label = "8", shape = circle, style = solid, fontsize = 14]
+	8 -> 11 [label = "110:110", fontsize = 14];
+9 [label = "9", shape = circle, style = solid, fontsize = 14]
+	9 -> 8 [label = "33:33", fontsize = 14];
+10 [label = "10", shape = circle, style = solid, fontsize = 14]
+11 [label = "11", shape = circle, style = solid, fontsize = 14]
+	11 -> 12 [label = "105:105", fontsize = 14];
+12 [label = "12", shape = circle, style = solid, fontsize = 14]
+	12 -> 13 [label = "99:99", fontsize = 14];
+13 [label = "13", shape = circle, style = solid, fontsize = 14]
+	13 -> 14 [label = "101:101", fontsize = 14];
+14 [label = "14", shape = circle, style = solid, fontsize = 14]
+	14 -> 16 [label = "116:116", fontsize = 14];
+15 [label = "15", shape = circle, style = solid, fontsize = 14]
+16 [label = "16", shape = circle, style = solid, fontsize = 14]
+	16 -> 17 [label = "111:111", fontsize = 14];
+17 [label = "17", shape = circle, style = solid, fontsize = 14]
+	17 -> 19 [label = "109:109", fontsize = 14];
+18 [label = "18", shape = circle, style = solid, fontsize = 14]
+19 [label = "19", shape = circle, style = solid, fontsize = 14]
+	19 -> 20 [label = "101:101", fontsize = 14];
+20 [label = "20", shape = circle, style = solid, fontsize = 14]
+	20 -> 21 [label = "101:101", fontsize = 14];
+21 [label = "21", shape = circle, style = solid, fontsize = 14]
+	21 -> 22 [label = "116:116", fontsize = 14];
+22 [label = "22", shape = circle, style = solid, fontsize = 14]
+	22 -> 24 [label = "121:121", fontsize = 14];
+23 [label = "23", shape = circle, style = solid, fontsize = 14]
+24 [label = "24", shape = circle, style = solid, fontsize = 14]
+	24 -> 25 [label = "111:111", fontsize = 14];
+25 [label = "25", shape = circle, style = solid, fontsize = 14]
+	25 -> 26 [label = "117:117", fontsize = 14];
+26 [label = "26", shape = circle, style = solid, fontsize = 14]
+	26 -> 28 [label = "0:0", fontsize = 14];
+27 [label = "27", shape = circle, style = solid, fontsize = 14]
+	27 -> 30 [label = "104:104", fontsize = 14];
+28 [label = "28", shape = circle, style = solid, fontsize = 14]
+	28 -> 27 [label = "44:44", fontsize = 14];
+29 [label = "29", shape = circle, style = solid, fontsize = 14]
+30 [label = "30", shape = circle, style = solid, fontsize = 14]
+	30 -> 31 [label = "111:111", fontsize = 14];
+31 [label = "31", shape = circle, style = solid, fontsize = 14]
+	31 -> 32 [label = "119:119", fontsize = 14];
+32 [label = "32", shape = circle, style = solid, fontsize = 14]
+	32 -> 34 [label = "97:97", fontsize = 14];
+33 [label = "33", shape = circle, style = solid, fontsize = 14]
+34 [label = "34", shape = circle, style = solid, fontsize = 14]
+	34 -> 35 [label = "114:114", fontsize = 14];
+35 [label = "35", shape = circle, style = solid, fontsize = 14]
+	35 -> 36 [label = "101:101", fontsize = 14];
+36 [label = "36", shape = circle, style = solid, fontsize = 14]
+	36 -> 38 [label = "121:121", fontsize = 14];
+37 [label = "37", shape = circle, style = solid, fontsize = 14]
+38 [label = "38", shape = circle, style = solid, fontsize = 14]
+	38 -> 39 [label = "111:111", fontsize = 14];
+39 [label = "39", shape = circle, style = solid, fontsize = 14]
+	39 -> 40 [label = "117:117", fontsize = 14];
+40 [label = "40", shape = circle, style = solid, fontsize = 14]
+	40 -> 42 [label = "0:0", fontsize = 14];
+41 [label = "41", shape = circle, style = solid, fontsize = 14]
+	41 -> 44 [label = "0:0", fontsize = 14];
+42 [label = "42", shape = circle, style = solid, fontsize = 14]
+	42 -> 41 [label = "63:63", fontsize = 14];
+43 [label = "43", shape = doublecircle, style = solid, fontsize = 14]
+44 [label = "44", shape = circle, style = solid, fontsize = 14]
+	44 -> 43 [label = "34:34", fontsize = 14];
+}
